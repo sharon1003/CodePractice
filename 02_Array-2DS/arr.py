@@ -23,13 +23,13 @@ def cal(arr):
 
 
 def hourglassSum(arr):
-    # scan row
-    # scan col
-    start = 4
-    for i in range(0, 5, -1):
-        for row in range(0, 5, -1):
-            f = ([arr[row][:3], arr[row+1][:3], arr[row+2][:3]])
-            print(cal(f))
+    temp_max = -float('inf') # little tips
+    for row in range(4):
+        for col in range(4):
+            f = cal([arr[row][col:col+3], arr[row+1][col:col+3], arr[row+2][col:col+3]])
+            if f > temp_max:
+                temp_max = f
+    return temp_max
 
 if __name__ == '__main__':
     fptr = open(OUTPUT_PATH, 'w')
