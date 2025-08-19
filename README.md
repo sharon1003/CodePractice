@@ -19,3 +19,6 @@
 - 12 [Compare Two Linked Lists](https://www.hackerrank.com/challenges/compare-two-linked-lists?isFullScreen=true) | Easy
 - 13 [Delete Duplicates](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list?isFullScreen=true) | Easy
 - 14 [Has Cycle](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle?isFullScreen=true) | Medium | HINT: Set fast and slow pointer. 如果是 cycle 的話，快的會追上慢的 pointer
+- 15 [Find Merge Node](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true) | Esay | HINT: The merge point is defined as the same node (same reference)
+- 16 [Insert a Node into a Sorted Doubly Linked List](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list?isFullScreen=true) | Easy
+- 17 [Reverse Double Linked List](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list?isFullScreen=true) | Easy | HINT: 只要把 prev, next 調換，並注意 head 的位置即可
