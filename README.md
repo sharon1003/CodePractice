@@ -22,3 +22,6 @@
 - 15 [Find Merge Node](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true) | Esay | HINT: The merge point is defined as the same node (same reference)
 - 16 [Insert a Node into a Sorted Doubly Linked List](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list?isFullScreen=true) | Easy
 - 17 [Reverse Double Linked List](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list?isFullScreen=true) | Easy | HINT: 只要把 prev, next 調換，並注意 head 的位置即可
+- 18 [Poisonous Plants](https://www.hackerrank.com/challenges/poisonous-plants?isFullScreen=true) | HARD | HINT:
+- 19 [Maximum Element](https://www.hackerrank.com/challenges/maximum-element?isFullScreen=true) | Easy | HINT: max_stack!!
+- 20 [Equal Stack](https://www.hackerrank.com/challenges/equal-stacks?isFullScreen=true) | Easy | HINT: 注意 pop() need O(n) 可以改用 s1(sum(h1)) -= h1[i]

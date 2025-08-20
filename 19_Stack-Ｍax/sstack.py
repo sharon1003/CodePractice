@@ -21,7 +21,7 @@ def getMax(operations):
     for op in operations:
         operation = op.split(' ')[0]
         if operation == str(1):
-            num = op.split(' ')[1]
+            num = int(op.split(' ')[1])
             stack.append(num)
             if not max_stack:
                 max_stack.append(num)
@@ -33,6 +33,7 @@ def getMax(operations):
         elif operation == str(3):
             # Can not use this one becuase it cost extra time
             stack_return.append(max_stack[-1])
+    print(max_stack)
     return stack_return
 
 if __name__ == '__main__':
