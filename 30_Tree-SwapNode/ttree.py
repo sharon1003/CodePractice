@@ -19,6 +19,9 @@ def swapNodes(indexes, queries):
     # Write your code here
     print(indexes)
     print(queries)
+    for i in queries:
+        
+
         
 if __name__ == '__main__':
 
